@@ -1,0 +1,234 @@
+body {
+  background-color: white;
+  color: black; }
+
+footer {
+  background-color: #101010;
+  color: #ffffff; }
+  footer .about-us a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 300ms linear; }
+    footer .about-us a:hover {
+      color: #ffffff;
+      background: #880b01;
+      transform: translateX(20px);
+      text-decoration: none; }
+  footer .scrollable {
+    height: 100px;
+    width: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid; }
+  footer span > a {
+    padding-left: 10px;
+    padding-right: 10px; }
+    footer span > a:hover {
+      color: #ffffff;
+      text-decoration: none; }
+
+.navbar-default {
+  /* properties */
+  font-size: 18px;
+  background-color: white;
+  border-color: white; }
+  .navbar-default .container {
+    padding-top: 0; }
+  .navbar-default .nav {
+    /* properties */ }
+    .navbar-default .nav > li > a {
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      .navbar-default .nav > li > a:hover:after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 2px;
+        background: red;
+        margin: auto;
+        position: absolute;
+        top: 22px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: background-color 400ms linear; }
+    .navbar-default .nav li {
+      /* properties */ }
+      .navbar-default .nav li.dropdown:hover > .dropdown-menu {
+        display: block;
+        color: #E53324; }
+      .navbar-default .nav li.dropdown .dropdown-menu {
+        width: 100%;
+        overflow: hidden;
+        background-color: #313131;
+        z-index: 999999; }
+        .navbar-default .nav li.dropdown .dropdown-menu > li > a {
+          color: white; }
+          .navbar-default .nav li.dropdown .dropdown-menu > li > a:hover {
+            background-color: #E53324;
+            transform: translate(1px, 1px);
+            transition: all 400ms; }
+      .navbar-default .nav li a {
+        color: #CE2E20;
+        font-size: 14px; }
+      .navbar-default .nav li:hover > a {
+        color: black;
+        transition: all 400ms; }
+
+body {
+  background-color: white;
+  color: black; }
+
+.item {
+  width: 100%;
+  height: 440px; }
+
+.container {
+  padding-top: 15px; }
+
+.thumbnail.product-hover {
+  border: 1px solid #d6cfcf;
+  border-bottom-width: 5px;
+  margin-bottom: 30px;
+  padding: 0; }
+  .thumbnail.product-hover:hover {
+    border: 1px solid #428bca;
+    border-bottom-width: 5px;
+    box-shadow: 1px 2px 2px #808080; }
+    .thumbnail.product-hover:hover .caption {
+      color: #428bca; }
+  .thumbnail.product-hover a {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 185px;
+    position: relative; }
+    .thumbnail.product-hover a *, .thumbnail.product-hover a > span.glyphicon::before {
+      transition: all 300ms; }
+    .thumbnail.product-hover a > span.glyphicon {
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.59);
+      opacity: 0; }
+      .thumbnail.product-hover a > span.glyphicon::before {
+        display: block;
+        width: 40px;
+        font-size: 32px;
+        height: 40px;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        transform: scale(3); }
+    .thumbnail.product-hover a:hover > span.glyphicon {
+      opacity: 1; }
+      .thumbnail.product-hover a:hover > span.glyphicon::before {
+        transform: scale(1); }
+    .thumbnail.product-hover a:hover > img {
+      transform: scale(1.2); }
+  .thumbnail.product-hover .img-thumbnail {
+    height: 185px; }
+
+body {
+  background-color: white;
+  color: black; }
+
+.container {
+  padding-top: 15px; }
+
+.img-thumbnail {
+  height: 183px; }
+
+body {
+  background-color: white;
+  color: black; }
+
+/* Home General Layout Related CSS goes here... */
+/* Home General Layout Related CSS goes here... */
+.business-list .panel-title {
+  overflow: hidden; }
+  .business-list .panel-title span {
+    color: #ff9800; }
+  .business-list .panel-title .img-circle {
+    width: 25%;
+    height: 75px;
+    margin-right: 10px; }
+
+.business-list .media-heading > a {
+  color: #ff9800;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 2s infinite; }
+
+@keyframes mymove {
+  0% {
+    padding: 0; }
+  50% {
+    padding: 10px; }
+  100% {
+    padding: 0; } }
+
+.business-list .pagination > li > a {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #000000;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #fb5f08; }
+
+.business-list .pagination > .active > a {
+  background-color: #337ab7; }
+
+.business-list .pagination > li > a:hover {
+  background-color: #ff9800; }
+
+.back {
+  position: relative; }
+  .back img {
+    width: 100%; }
+  .back .center {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center; }
+  .back h1 {
+    font-size: 36px;
+    color: white; }
+  .back .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0px 15px 40px -15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0px 15px 40px -15px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px 15px 40px -15px rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%; }
+  .back .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px; }
+
+.foot {
+  background-color: #343434;
+  color: #ffffff; }
+  .foot a {
+    text-decoration: none;
+    color: #ffffff; }
+
+/* Home General Layout Related CSS goes here... */

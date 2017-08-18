@@ -1,0 +1,39 @@
+.slider .slide {
+  display: none;
+  height: 400px;
+  overflow: hidden;
+  position: relative; }
+  .slider .slide.active {
+    display: block; }
+  .slider .slide.active:hover .caption {
+    visibility: visible;
+    transition: all 300ms; }
+  .slider .slide img {
+    width: 100%; }
+  .slider .slide .caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px;
+    visibility: hidden;
+    transition: all 300ms; }
+    .slider .slide .caption h1, .slider .slide .caption p, .slider .slide .caption a {
+      margin-bottom: 20px;
+      color: #fff;
+      transition: all 300ms;
+      cursor: default; }
+    .slider .slide .caption h1 {
+      font-size: 30px; }
+      .slider .slide .caption h1:hover {
+        text-shadow: 2px 2px 5px; }
+    .slider .slide .caption p {
+      font-size: 16px; }
+    .slider .slide .caption a {
+      font-size: 16px;
+      text-decoration: none; }
+      .slider .slide .caption a:hover {
+        font-size: 16px;
+        text-decoration: underline; }
