@@ -1,0 +1,30 @@
+{
+  "name": "autoapplicationwriter",
+  "version": "1.0.0",
+  "description": "auto application writer",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhalegaonkar3/autoapplicationwriter.git"
+  },
+  "keywords": [
+    "application",
+    "writer"
+  ],
+  "author": "mayuresh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhalegaonkar3/autoapplicationwriter/issues"
+  },
+  "homepage": "https://github.com/mkhalegaonkar3/autoapplicationwriter#readme"
+}
