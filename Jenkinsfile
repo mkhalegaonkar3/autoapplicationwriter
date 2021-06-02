@@ -6,12 +6,5 @@ pipeline {
         echo 'Hello'
       }
     }
-
-    stage('echo hello') {
-      steps {
-        sh 'echo "Hi i am Mayuresh"'
-      }
-    }
-
   }
 }
